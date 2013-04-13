@@ -1,71 +1,59 @@
-@@ -0,0 +1,70 @@
-+ {
-+	padding: 0;
-+	margin: 0;
-+	}
-+
-+body {
-+   font-family:"calibri", arial, san serif;
-+   max-width: 67%;
-+   margin:3.75% auto;
-+   background:#fff;
-+}
-+
-+#container {
-+    font-family:calibri, arial, sans-serif
-+    width:100%;
-+    padding:5px;
-+}
-+
-+h1{
-+    font-family:"Impact", Trebuchet, san serif;
-+    font-size: 48px;
-+    font-weight:bold;
-+    text-align:center;
-+}
-+
-+h2{
-+    font: 100%/0.5 "Cambria", Times New Roman, serif;
-+    font-size:24px;
-+    line-height:.025em;
-+    padding:10px;
-+    font-weight:bold;
-+    color:#000;
-+}
-+
-+h3{
-+    margin-left:10px;
-+    margin-bottom:10px;
-+    color:#000;
-+}
-+
-+h5{
-+    color:gray;
-+    font-style:italic;
-+    font-weight:bold;
-+    text-align:center;
-+}
-+
-+p{
-+    padding:10px;
-+    font-family:calibri, arial, sans-serif;
-+    line-height:1.1em;
-+}
-+
-+div{
-+    border: double 15px #670b0b;
-+    padding:1em;
-+}
-+
-+ul {
-+    padding:5px;
-+    margin-left:5em;
-+    font-family:calibri, arial, sans-serif
-+}
-+
-+footer{
-+    font-size:10px;
-+    opacity:0.8;
-+    background-color:#fff;
-+    text-align:center;
-+}
+body {
+   font-family:"calibri", arial, san serif;
+   max-width: 67%;
+   margin:3.75% auto;
+   background:#fff;
+}
+
+#container {
+    font-family:calibri, arial, sans-serif
+    width:100%;
+    padding:5px;
+}
+
+h1{
+	font-family:"Impact", Trebuchet, san serif;
+	font-size: 48px;
+    font-weight:bold;
+    text-align:center;
+}
+
+h2{
+    font: 100%/0.5 "Cambria", Times New Roman, serif;
+    font-size:24px;
+    line-height:.025em;
+    padding:10px;
+    font-weight:bold;
+    color:#000;
+}
+
+h3{
+    margin-left:10px;
+    margin-bottom:10px;
+    color:#000;
+}
+
+h5{
+    color:gray;
+    font-style:italic;
+    font-weight:bold;
+    text-align:center;
+}
+
+p{
+    padding:10px;
+    font-family:calibri, arial, sans-serif;
+    line-height:1.1em;
+}
+
+div{
+    border: double 15px #670b0b;
+    padding:1em;
+}
+
+footer{
+    font-size:10px;
+    opacity:0.8;
+    background-color:#fff;
+    text-align:center;
+}
