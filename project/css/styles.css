@@ -12,8 +12,8 @@ body {
 }
 
 h1{
-    font-family:"Impact", Trebuchet, san serif;
-    font-size: 48px;
+	font-family:"Impact", Trebuchet, san serif;
+	font-size: 48px;
     font-weight:bold;
     text-align:center;
 }
@@ -49,12 +49,6 @@ p{
 div{
     border: double 15px #670b0b;
     padding:1em;
-}
-
-ul {
-    padding:5px;
-    margin-left:5em;
-    font-family:calibri, arial, sans-serif
 }
 
 footer{
