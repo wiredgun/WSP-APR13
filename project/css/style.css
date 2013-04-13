@@ -12,8 +12,13 @@ body {
 }
 
 h1{
+<<<<<<< HEAD
     font-family:"Impact", Trebuchet, san serif;
     font-size: 48px;
+=======
+	font-family:"Impact", Trebuchet, san serif;
+	font-size: 48px;
+>>>>>>> css revisions
     font-weight:bold;
     text-align:center;
 }
@@ -51,12 +56,15 @@ div{
     padding:1em;
 }
 
+<<<<<<< HEAD
 ul {
     padding:5px;
     margin-left:5em;
     font-family:calibri, arial, sans-serif
 }
 
+=======
+>>>>>>> css revisions
 footer{
     font-size:10px;
     opacity:0.8;
