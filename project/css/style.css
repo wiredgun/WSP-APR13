@@ -2,13 +2,53 @@
 @import "normalize.css"
 
 body {
-    font: 9pt/1.5em Arial, Helvetica, sans-serif;
+    font: 16pt/1.5em Arial, Helvetica, sans-serif;
+    max width: 67%;
+    margin: auto;
 }
 pre, code, tt {
     font: 1em/1.5em 'Andale Mono', 'Lucida Console', monospace;
 }
 h1, h2, h3, h4, h5, h6, b, strong {
     font-weight: bold;
+}
+h1 {
+	font-family: Georgia, Times, serif;
+	font-size: 36px;
+}
+#nav {
+	width: 100%;
+	float: left;
+	margin: 0 0 3em 0;
+	padding: 0;
+	list-style: none;
+	background-color: #c6691e;
+	border-bottom: 1px solid #ccc; 
+	border-top: 1px solid #ccc; }
+#nav li {
+	float: left;
+}
+#nav li a {
+	display: block;
+	padding: 8px 15px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #fff;
+	border-right: 1px solid #ccc; 
+}
+#nav li a:hover {
+	color: #c00;
+	background-color: #fff; 
+}
+p article {
+	margin: auto;
+	text-align: center;
+	font-size: 16pt;
+}
+aside {
+	border: 1px solid #000;
+	width: 280px;
+	text-align: center;
 }
 em, i, dfn {
     font-style: italic;
