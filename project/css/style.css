@@ -2,7 +2,7 @@
 @import "normalize.css"
 
 body {
-    font: 14pt/1.5em Arial, Helvetica, sans-serif;
+    font: 12pt/1.5em Arial, Helvetica, sans-serif;
     max width: 67%;
     margin: auto;
 }
@@ -81,5 +81,7 @@ aside {
 	float:right;
 }
 footer {
-	font:10px Arial
+	font-size: 8px
+	font-family: Arial, "MS Trebuchet", sans-serif; Arial
+	color: #fff;
 }
