@@ -28,6 +28,25 @@
 <body>
 <header>
     <a href="#"><img src="images/tnt_logo.jpg"></a>
+    
+        <div id=search>        
+        <form onsubmit="return redirect()">
+    <input id="search_form_input" type="text" name="query" />
+    <input type="submit" value="GO" />
+</form>
+</div>
+
+
+<script type="text/javascript">
+    function redirect()
+    {
+        var query = document.getElementById('search_form_input').value;
+        if (query != '') {
+            window.location = 'http://www.winpatrol.com/db/pluscloud/' + query + '.html';
+        }
+        return false;
+    }
+</script>
 
         <ul id="nav">
             <li><a href="index.html">HOME</a></li>
@@ -61,36 +80,39 @@
 
     <div id="form">
 	<form action="MAILTO:rick@swartz.net" method="post" enctype="text/plain"><h1><strong><em>CONTACT FORM</em></strong></h1>
-		We always love hearing from you so don't hesitate to contact us with this form, or any of the alternatives to your right.<br /><br />
+		<p>We always love hearing from you so don't hesitate to contact us with this form, or any of the alternatives to your right.</p>
 		
 	<label for="f_name"></label>
-	<input type="text" name="name" value="First Name"/><br /><br />
+	<input type="text" name="name" value="First Name"/>
 	<label for="l_name"></label>
 	<input type="text" name="name" value="Last Name"/><br /><br />
 	<label for="tel"></label>
 	<input type="text" name="tel" value="Telephone"/> <em>(Optional)</em><br /><br />
 	<label for="email"></label>
-	<input type="text" name="mail" value="Email Address" /><br /><br />
-		Keep in mind,
+	<input type="text" name="mail" value="Email Address" /><br />
+		<p>Keep in mind, if you require a call back from us be sure to include your telephone number in the appropriate field.</p>
 		
-		Comment:<br />
-	<textarea rows= "10" cols="31"></textarea>
-	<br />
-	<p><select name="subject" id="subject">
+		<p><select name="subject" id="subject">
 		<option>General Inquiry</option>
 		<option>Suggestion</option>
 		<option>Website Error</option>
 		<option>Complaint</option>
-		<option>Press</option></p><br />
+		<option>Press</option></p><br /><br />
 		
-	<input type="submit" value="Send">
+		<b>Comment:</b><br />
+	<textarea rows= "10" cols="38"></textarea>
+	<br /><br />
+
+	
+	<img src="images/SEND.png"><br /><br />
 	<input type="reset" value="Reset">
+	<p>We respect your privacy and you can be assured we will never sell or share your personal information with any 3rd party.</p>
 	</form>
         </div>
 
 	<div id=contacts>
 		<h2>Stop By and Visit</h2>
-		711 West Smith Street
+		711 West Smith Street<br />Orlando, Florida 32804
 		<h2>Send Us An Email</h2>
 		info@trufflesandtrifles.com
 		<h2>Send Us A Fax</h2>

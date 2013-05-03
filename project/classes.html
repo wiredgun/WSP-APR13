@@ -29,6 +29,25 @@
 <body>
 <header>
     <a href="#"><img src="images/tnt_logo.jpg"></a>
+    
+        <div id=search>        
+        <form onsubmit="return redirect()">
+    <input id="search_form_input" type="text" name="query" />
+    <input type="submit" value="GO" />
+</form>
+</div>
+
+
+<script type="text/javascript">
+    function redirect()
+    {
+        var query = document.getElementById('search_form_input').value;
+        if (query != '') {
+            window.location = 'http://www.winpatrol.com/db/pluscloud/' + query + '.html';
+        }
+        return false;
+    }
+</script>
 
         <ul id="nav">
             <li><a href="index.html">HOME</a></li>
@@ -389,7 +408,7 @@
 	
 		
 		Comment:<br />
-	<textarea rows= "10" cols="31"></textarea>
+	<textarea rows= "10" cols="38"></textarea>
 	<br />
 	<p><select name="class selection" id="select">
 		<option>{Select Your Class}</option>
@@ -406,8 +425,7 @@
 	<input type="submit" value="Send">
 	<input type="reset" value="Reset"><br /><br />
 	</form>
-	
-	
+		
 	<img src="images/beginner.jpg"></a><br />
 	<img src="images/beerandwine.jpg" width="135px" height="135px"></a><br />
 	<img src="images/littlechef.jpg"></a><br />
@@ -416,7 +434,6 @@
 	<img src="images/private.jpg"></a><br />
 	<img src="images/pro.JPG"></a><br />
 
-	
 	  </article>
 
 	    <footer>
