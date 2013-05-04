@@ -192,6 +192,10 @@ article {
 	padding: 10px;
 	float: none;
 }
+#classimg {
+	display:block;
+	background-color: beige;
+}
 aside {
 	background:#ead685;
 	border: 2px solid #ead685;
