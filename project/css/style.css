@@ -11,6 +11,7 @@ header {
 }
 #search {
 	float:right;
+	clear:both;
 }
 h1, h2, h3, h4, h5, h6, b, strong {
     font-weight: bold;
@@ -35,6 +36,18 @@ h5 {
 	font: 13px Georgia, Times, serif;
 	text-decoration:inherit;
 }
+#marqueecontainer{
+	position: relative;
+	width: 300px; /*marquee width */
+	height: 20px; /*marquee height */
+	background-color: #6e4119;
+	overflow: hidden;
+	border: 1px solid #623612;
+	padding: 2px;
+	padding-left: 4px;
+	float:right;
+	clear:both;
+	}
 #nav {
 	width: 100%;
 	float: left;
@@ -73,7 +86,7 @@ h5 {
 	width: 190px;
 	height: 270px;
 	margin: auto;
-	border: 2px solid #edc9a9;
+	border: 2px solid #ead685;
 }
 .sub1 {
 	font-family: Calibri, Arial, Helvetica, sans-serif;
@@ -99,10 +112,10 @@ article {
 	background-color:beige;
 	font-size: 10pt;
 	width:705px;
-	margin: 0 auto;
+	margin-bottom: 10px;
 	padding:5px;
 	text-align: left;
-	border: 2px solid #6c2e16;
+	border: 2px solid #ead685;
 	float:left;
 }
 .art2 {
@@ -111,7 +124,7 @@ article {
 	font-size: 9pt;
 	width:420px;
 	height:220px;
-	margin: 0;
+	margin-top: 20;
 	padding-left:5px;
 	text-align: left;
 	border: 12px solid #ead685;
@@ -119,14 +132,16 @@ article {
 }
 .red1 {
 	color:red;
+	float:right;
 }
 .art3 {
 	background-color:beige;
 	font-family:Georgia, Times, serif;
 	font-size: 14pt;
-	width:200px;
+	width:203px;
 	height:220px;
-	margin-right: 20px;
+	margin-top: 0;
+	margin-right: 16px;
 	padding: 5px;
 	text-align: left;
 	border: 12px solid #ead685;
@@ -135,14 +150,18 @@ article {
 #form {
 	background-color:beige;
 	font-family:Georgia, Times, serif;
-	font-size: 11pt;
+	font-size: 12pt;
 	width:320px;
-	height:700px;
+	height:805px;
 	margin: 0;
 	padding:10px;
 	text-align: left;
 	border: 2px solid #ead685;
 	float:left;
+}
+.send {
+	float:right;
+	background-color:beige;
 }
 #gallery {
 	background-color:#ead685;
@@ -175,7 +194,7 @@ article {
 }
 aside {
 	background:#ead685;
-	border: 2px solid #6c2e16;
+	border: 2px solid #ead685;
 	width: 215px;
 	text-align: center;
 	float:right;
