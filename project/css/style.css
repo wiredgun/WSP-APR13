@@ -33,8 +33,14 @@ h4 {
 	text-decoration:inherit;
 }
 h5 {
-	font: 13px Georgia, Times, serif;
+	font: 12px Georgia, Times, serif;
 	text-decoration:inherit;
+}
+h6 {
+	font: 10px Georgia, Times, serif;
+}
+p {
+	font: 13px Helvetica, sans-serif;
 }
 #marqueecontainer{
 	position: relative;
@@ -123,7 +129,7 @@ article {
 	font-family:Georgia, Times, serif;
 	font-size: 9pt;
 	width:420px;
-	height:220px;
+	height:200px;
 	margin-top: 20;
 	padding-left:5px;
 	text-align: left;
@@ -137,9 +143,9 @@ article {
 .art3 {
 	background-color:beige;
 	font-family:Georgia, Times, serif;
-	font-size: 14pt;
+	font-size: 13pt;
 	width:203px;
-	height:220px;
+	height:200px;
 	margin-top: 0;
 	margin-right: 16px;
 	padding: 5px;
@@ -152,12 +158,13 @@ article {
 	font-family:Georgia, Times, serif;
 	font-size: 12pt;
 	width:320px;
-	height:805px;
+	height:935px;
 	margin: 0;
 	padding:10px;
 	text-align: left;
 	border: 2px solid #ead685;
 	float:left;
+	clear:left;
 }
 .send {
 	float:right;
@@ -206,6 +213,7 @@ aside {
 footer {
 	padding: 20px;
 	font-size: 9px;
-	font-family: Arial, "MS Trebuchet", sans-serif;
 	color: white;
+	margin:auto;
+	text-align:center;
 }
