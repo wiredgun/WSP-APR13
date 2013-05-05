@@ -49,8 +49,10 @@
     }
 </script>
 
-<div id="marqueecontainer" onMouseover="copyspeed=pausespeed" onMouseout="copyspeed=marqueespeed">
-				<div id="vmarquee" style="position: absolute; width: 100%;">
+<div id="marqueecontainer"> 
+	<div id=onMouseover="copyspeed=pausespeed">
+		<div id=onMouseout="copyspeed=marqueespeed">
+			<div id="vmarquee" style="position: absolute; width: 100%;">
 
 <!--SCROLL CONTENT HERE-->
 
@@ -64,6 +66,8 @@ TNT Named As A Top 5 School for Culinary Arts in the United States<br /><br />
 TNT Adds Event Planning to Their Service Roster<br /><br />
 
 Email all information to <a href="mailto:wiredgun@fullsail.edu">Wiredgun</a>
+				</div>
+				</div>
 				</div>
 				</div>
 
@@ -82,11 +86,11 @@ Email all information to <a href="mailto:wiredgun@fullsail.edu">Wiredgun</a>
 		<div id=sidebar><br />
 		    <div id=truffle><br />
 		    	<form action="MAILTO:rick@swartz.net" method="post" enctype="text/plain"> <span class="sub1">Subscribe to</span><br /><span class="sub2">Truffle Talk--->It's Free</span><br /><br />
-				<label for="name"></label>
+				
 				<input type="text" name="name" value="First Name" /><br /><br />
-				<label for="email"></label>
+				
 				<input type="text" name="mail" value="Email Address" />
-				<br /><span class="sub3">We Respect Your Privacy and We'll Never<br /> or Share Your Personal Information</span>
+				<br /><span class="sub3">We Respect Your Privacy and We'll Never<br />Sell or Share Your Personal Information</span>
 				<img src="images/SUBSCRIBE-Button.png"><br />
 				</form><br />
 		    </div>
@@ -104,7 +108,7 @@ Email all information to <a href="mailto:wiredgun@fullsail.edu">Wiredgun</a>
 		</div>
 </aside><br />
 
-    <article>
+    <article class="cooking">
         <h1>Unleash Your Inner-Chef</h1>
 
 <p>Marci Arthur, founder of Truffles and Trifles, is an outgoing and dynamic celebrity chef with TV and Radio appearances both locally and nationally to her credit. Marci has accumulated a host of accolades for her culinary prowess. Her charm and witty sense of humor add spice to every Marci Arthur sighting, and one of the reasons her classes are so popular. Marci and her staff of classically trained chefs insure that every cooking class is a memorable experience.</p>
@@ -113,16 +117,19 @@ Email all information to <a href="mailto:wiredgun@fullsail.edu">Wiredgun</a>
 
 <p>Your children can also enjoy lifetime memory with one of our signature birthday parties. They get to pick out their favorite menu and then make a gourmet feast with their friends. From tasty appetizers to the kid’s favorite entrées, to a scratch birthday cake and homemade ice cream, along with their own designer birthday beverage, the children create all the magic; with our help.</p>
 
-<p>Your child must have completed the first grade to have a party. So gather up the kid’s age from 7 years and up, and bring them in for a spectacular day.</p>
+<p>Your child must have completed the first grade to participate. So gather up the kid’s age from 7 years and up, and bring them in for a spectacular day.</p>
+	  </article>
+	  
+	  <div id=reg>
 
-<form action="MAILTO:rick@swartz.net" method="post" enctype="text/plain"><h2><center>Register Here To Get Cooking</center></h2><br />
-	<label for="f_name"></label>
+<form action="MAILTO:rick@swartz.net" method="post" enctype="text/plain"><h4>Register Here To Get Cooking</h4><br />
+	
 	<input type="text" name="name" value="First Name"/>
-	<label for="l_name"></label>
+	
 	<input type="text" name="name" value="Last Name"/><br /><br />
-	<label for="address"></label>
+	
 	<input type="text" name="mail" value="Street Address"/><br /><br />
-	<label for="city"></label>
+	
 	<input type="text" name="mail" value="City"/>
 	
 	    <select name="state" id="state">
@@ -178,8 +185,8 @@ Email all information to <a href="mailto:wiredgun@fullsail.edu">Wiredgun</a>
     <option value="WI">Wisconsin</option>
     <option value="WY">Wyoming</option>
     </select>
-<br /><br /><br />
-	<label for="zip"></label>
+<br /><br />
+	
 	<input type="text" name="mail" value="Postal Code"<br /><br /><br />
 	    <select>
     <option value=" " selected>(select a country)</option>
@@ -424,7 +431,7 @@ Email all information to <a href="mailto:wiredgun@fullsail.edu">Wiredgun</a>
     <option value="ZM">Zambia</option>
     <option value="ZW">Zimbabwe</option>
     </select><br /><br />
-	<label for="main"></label>
+	
 	<input type="text" name="main" value="Main Telephone"
 	<label for="alt"></label>
 	<input type="text" name="alt" value="Alt Telephone" /><br /><br />
@@ -438,7 +445,7 @@ Email all information to <a href="mailto:wiredgun@fullsail.edu">Wiredgun</a>
 	<p><select name="class selection" id="select">
 		<option>{Select Your Class}</option>
 		<option>Beginner's Classes</option>
-		<option>Beer & Wine Pairing Classes</option>
+		<option>Beer &amp; Wine Pairing Classes</option>
 		<option>Children's Classes</option>
 		<option>Corporate Unity Classes</option>
 		<option>Couple's Classes</option>
@@ -450,6 +457,7 @@ Email all information to <a href="mailto:wiredgun@fullsail.edu">Wiredgun</a>
 	<input type="submit" value="Send">
 	<input type="reset" value="Reset"><br /><br />
 	</form>
+	</div>
 	
 	<div id="classimg">	
 		<img src="images/beginner.jpg"></a><br />
@@ -461,10 +469,10 @@ Email all information to <a href="mailto:wiredgun@fullsail.edu">Wiredgun</a>
 		<img src="images/pro.JPG"></a><br />
 	</div>
 
-	  </article>
+
 
 	    <footer>
-	    <p align><center><em>Copyright<sup>&copy;</sup> 2013, Truffles and Trifles, All Rights Reserved</em></center></p>
+	    <p><center><em>Copyright<sup>&copy;</sup> 2013, Truffles and Trifles, All Rights Reserved</em></center></p>
 	    </footer>
     </body>
 </html>
