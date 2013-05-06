@@ -7,7 +7,7 @@ body {
     margin: auto;
 }
 header {
-	padding-top:15px;
+	padding-top:1%;
 }
 #search {
 	float:right;
@@ -18,43 +18,31 @@ h1, h2, h3, h4, h5, h6, b, strong {
 }
 h1 {
 	font-family: Georgia, Times, serif;
-	font-size: 30px;
+	font-size: 1.5em;
 }
 h2 {
-	font: 30px Helvetica, sans-serif;
+	font: 1.5em Helvetica, sans-serif;
 	font-weight:bold;
 	text-align:center;
 }
 h3 {
-	font: 24px Helvetica, sans-serif;
+	font: 1.4em Helvetica, sans-serif;
 	font-weight:bold;
 }
 h4 {
-	font: 18px Helvetica, sans-serif;
+	font: 1.2em Helvetica, sans-serif;
 	text-decoration:inherit;
 }
 h5 {
-	font: 12px Georgia, Times, serif;
+	font: 1em Georgia, Times, serif;
 	text-decoration:inherit;
 }
 h6 {
-	font: 10px Georgia, Times, serif;
+	font: .7em Georgia, Times, serif;
 }
 p {
-	font: 13px Helvetica, sans-serif;
+	font: 1.1em Helvetica, sans-serif;
 }
-#marqueecontainer{
-	position: relative;
-	width: 300px; /*marquee width */
-	height: 20px; /*marquee height */
-	background-color: #6e4119;
-	overflow: hidden;
-	border: 1px solid #623612;
-	padding: 2px;
-	padding-left: 4px;
-	float:right;
-	clear:both;
-	}
 #nav {
 	width: 100%;
 	float: left;
@@ -128,7 +116,6 @@ article {
 .art2 {
 	background-color:beige;
 	font-family:Georgia, Times, serif;
-	font-size: 9pt;
 	width:420px;
 	height:200px;
 	margin-top: 20;
@@ -144,7 +131,6 @@ article {
 .art3 {
 	background-color:beige;
 	font-family:Georgia, Times, serif;
-	font-size: 13pt;
 	width:203px;
 	height:200px;
 	margin-top: 0;
@@ -162,7 +148,7 @@ article {
 	font-family:Georgia, Times, serif;
 	font-size: 12pt;
 	width:320px;
-	height:913px;
+	height:800px;
 	margin: 0;
 	padding:10px;
 	text-align: left;
@@ -196,7 +182,7 @@ article {
 	font-family:Georgia, Times, serif;
 	font-size: 14pt;
 	width:340px;
-	height:450px;
+	height:475px;
 	margin-right: 10px;
 	padding:10px;
 	text-align: center;
@@ -205,7 +191,7 @@ article {
 }
 #map {
 	width: 360px;
-	padding-right: 10px;
+	padding-right: 15px;
 	padding-top: 10px;
 	float:right;
 	
@@ -232,10 +218,50 @@ aside {
 	text-align: center;
 	float:right;
 }
-footer {
-	padding: 20px;
-	font-size: 9px;
+#404 {
+	background-color:#fff;
+	margin: 0 auto;
+	float:right;
+}
+#footer {position: relative;
+	margin-top: -150px; /* negative value of footer height */
+	height: 150px;
+	clear:both;
 	color: white;
-	margin:auto;
 	text-align:center;
+}
+
+/* Media Queries 
+============================================================= */
+
+/* Tablet portrait to standard 1024px (devices and browsers) */
+	@media screen and (min-width: 769px) and (max-width: 1024px){
+		nav ul li:first-child {margin-left: .1%;}
+		nav a {font-size: 22px;}
+		body {width: 100%;} /* 640px; */
+}
+
+/* Mobile landscape to tablet portrait (devices and browsers) */
+	@media screen and (min-width: 481px) and (max-width: 768px){
+		nav ul li:first-child {margin-left: .1%;} /* 350px; */
+		nav a {font-size: 18px;}
+		body {width: 80%;} /* 640px; */
+		ol {font-size: 80%;} /*18px;*/
+}
+
+/* Mobile potrait to mobile landscape (devices and browsers) */
+	@media screen and (max-width: 480px){
+		#nav {width: 100%; float: left; margin: 0 0 3em 0; padding: 0; list-style: none; #wrapper {background-color: #ff7743;}
+		#nav li {float: left;}
+		#nav li a {display: inline-table; padding: 8px 15px; text-decoration: none; font-size:14px; font-weight: bold; color: #fff; border: none;}
+		#nav li a:hover {color: #c00; background-color: #6c2e16; }
+		#header {width: 100%; float:left;}
+		#dhall {display: none;}
+		article {width:100%;}
+		.art2 {width:100%; height:auto;}
+		.art3 {display: none;}
+		#gallery {display: none;}
+		body {width: 90%;} /* 640px; */
+		ol {font-size: 60%;}
+		#footer {display:none;}
 }
